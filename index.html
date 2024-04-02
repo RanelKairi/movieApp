@@ -6,9 +6,9 @@
     <title>Movie App</title>
     <link rel="stylesheet" href="style.css">
 
-    <div id="searchContainer">
-        <input type="text" id="movieInput" placeholder="Enter a movie name">    <img src ="" alt=""> 
-        <button onclick="loadData()">
+    <div id="searchContainer" class = "reset">
+        <input type="text" id="movieInput" placeholder="Enter a movie name">
+        <button id ="butt">
          Search
         </button>
     </div>
@@ -16,7 +16,7 @@
 </head>
 <body>
     
-    <div id="movieDetails">
+    <div id="movieVar">
         <img id="poster" src="" alt="" style="width: 200px; height: auto;">
         <p><strong>Title:</strong> <span id="title"></span></p>
         <p><strong>Genre:</strong> <span id="genre"></span></p>
@@ -24,6 +24,7 @@
         <p><strong>Director:</strong> <span id="director"></span></p>
         <p><strong>Actors:</strong> <span id="actors"></span></p>
         <p><strong>Plot:</strong> <span id="plot"></span></p>
+        <p><strong>Rating:</strong> <span id="rating"></span></p>
     </div>
 
 </body>

@@ -32,7 +32,7 @@
     background-color: #0056b3;
 }
 
-#movieDetails {
+#movieVar {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
@@ -51,12 +51,12 @@
     margin-bottom: 20px;
 }
 
-#movieDetails p {
+#movieVar p {
     margin: 5px 0;
     font-size: 18px;
     color: #333;
 }
 
-#movieDetails strong {
+#movieVar strong {
     font-weight: bold;
 }
